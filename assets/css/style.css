@@ -61,7 +61,6 @@ body {
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 1;
 }
 
 .menu__btn > span,
@@ -96,14 +95,13 @@ body {
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;    
 }
 
 
 .contantimg {
-     max-width: 770px;
+     max-width: 900px;      
      padding-bottom: 5%;
-      
 }
 
 .h3-header {
@@ -113,7 +111,7 @@ body {
 
 }
 
-.p-header {
+.p-fore-image {
     font-size: 58px;
     font-weight: 700;
     line-height: 80px;
@@ -121,7 +119,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.h4-header {
+.h4-for-image {
     font-weight: 500;
     font-size: 24px;
     line-height: 38px;
@@ -131,7 +129,7 @@ body {
 
  
 .header-buttons {
-    padding:7% 0 0 16%;
+    padding:7% 0 0 19%;
 }
  
 .button-style {
@@ -150,26 +148,11 @@ body {
     margin: 0px 35px 0 100px;    
 }
 
-
-.redphone{
-    position: absolute;
-    bottom:5%;
-    left:31%;
-    z-index: 2;
-    
-}
-
-.whitephone {
-    position: absolute;
-    left:50%;
-    bottom:25%;
-    z-index: 1;
-}
-
 .photo {
-    height: 600px;
+    text-align: center;
+    margin:-15% 4% 0 0%;
+   
 }
-
  
 .line {
     max-width: 884px;
@@ -194,7 +177,12 @@ body {
 }
 
 .src {  
-    padding-left:12%;
+    padding-left:10%;
+}
+
+a {
+    text-decoration: none;
+    color:#FA4A0C;
 }
 
 .main-contents {
@@ -208,10 +196,8 @@ body {
 
 
 .h3-main-style {
-    color:#FA4A0C;
     font-size: 24px;
-    line-height: 36px;
-    
+    line-height: 36px;    
 }
 
 .h2-main-style {
@@ -220,7 +206,7 @@ body {
     line-height: 57px;
     font-weight: 700;
     line-height: 57px;
- 
+
 }
 
 .h4-main-style {
@@ -228,16 +214,66 @@ body {
     font-size: 24px;
     line-height: 38px;
     font-weight: 500;
-    line-height: 38px;
-  
+    line-height: 38px; 
 }
 
- 
+.h-margin {
+    margin:10px 0;
+}
 
- 
+
+.download-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(../img/footer.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;  
+    
+}
 
 
+.download-buttons {
+    padding: 4% 5% 0 0;
+}
  
+.button-download-style {
+    padding:15px 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    border:1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
+    justify-content: center;   
+}
+
+.appstore {
+    padding:15px 70px;
+}
+
+.bottom-items {
+    display: flex;
+    padding: 3% 10%;
+    color:black;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-items-logo {
+    list-style: none;
+    display: flex;
+    justify-content: baseline;
+}
+
+.footer-items-logo > li {
+    padding-left:25px;
+    justify-content: baseline;
+}
+
  
  
  
