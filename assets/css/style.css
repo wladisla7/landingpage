@@ -39,6 +39,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
+ 
 /*landing-style*/
 
 /*nav-header*/
@@ -52,7 +53,7 @@ body {
     opacity: 0;
 }
 
-.menu__btn {
+.menu-btn {
     display: flex;  
     align-items: center;   
     position: absolute;
@@ -63,9 +64,9 @@ body {
     cursor: pointer;
 }
 
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -73,12 +74,12 @@ body {
     background-color: #616161;
 }
 
-.menu__btn > span::before {
+.menu-btn > span::before {
     content: '';
     top: -8px;
 }
 
-.menu__btn > span::after {
+.menu-btn > span::after {
     content: '';
     top: 8px;
 }
@@ -194,7 +195,6 @@ a {
     
 }
 
-
 .h3-main-style {
     font-size: 24px;
     line-height: 36px;    
@@ -221,7 +221,6 @@ a {
     margin:10px 0;
 }
 
-
 .download-img {
     display: flex;
     flex-direction: column;
@@ -235,7 +234,6 @@ a {
     font-family: 'Montserrat', sans-serif;  
     
 }
-
 
 .download-buttons {
     padding: 4% 5% 0 0;
@@ -257,10 +255,10 @@ a {
 
 .bottom-items {
     display: flex;
-    padding: 3% 10%;
+    padding: 3% 15%;
     color:black;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 .footer-items-logo {
@@ -271,10 +269,12 @@ a {
 
 .footer-items-logo > li {
     padding-left:25px;
-    justify-content: baseline;
+    
 }
 
- 
- 
+.margin-p-down {
+    margin:0;
+} 
+
  
   
