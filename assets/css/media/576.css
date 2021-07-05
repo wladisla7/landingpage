@@ -1,0 +1,129 @@
+@media (max-width:576px) {
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+         
+    }
+    .logo {
+        padding-left: 25px;
+    }
+
+    .menu-btn {
+        right:30px;
+    }
+
+    .image-content {
+        background-image: none;
+        color:black;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-buttons {
+        font-display:flex;
+        flex-direction: column;
+         align-items: center;
+    }
+
+
+    .button-style {
+        padding:10px 45px;
+        margin:0 100px 0 0;
+    }
+
+    .playstore {
+         color:white;
+         margin-bottom: 15px;
+         font-weight: 700;
+    }
+    
+    .appstore {
+        border:1px solid red;
+        color:red;
+        font-weight: 700;
+    }
+
+    .photo {
+         margin:-17% 0% 0% -20%;
+    }
+
+    .line {
+        display: none;
+ 
+    }
+
+    .wrapper-info {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+        padding-top:15%;
+    }
+
+    .wrapper-info {
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+        padding-top:15%;
+    }
+
+    .loginimg {
+        background-image: url(/assets/img/mediaphone1.png);
+        margin-left:15%;
+
+    }
+
+    .srcimg {
+        background-image: url(/assets/img/mediaphone2.png); 
+        margin-left:15%;
+        
+    }
+
+    .src {
+        padding:0;
+        flex-direction: column;
+    }
+
+    .download-img {
+        background-image: none;
+        background-color: #252B42;
+    }
+
+    .download-buttons {
+        padding: 4% 20% 0 0;
+    }
+
+    .padding-logo-down {
+        display: none;
+    }
+
+    .footer-p {
+        display: none;
+    }
+
+    .footer-items-logo {
+        padding-left:24%;
+    }
+
+    .download-buttons {
+        margin: 4% 0% 0 0;
+    }
+     
+
+    .button-download-style {
+        font-size: 16px;
+        padding:10px 25px;
+    }
+
+    .media-app {
+        padding:10px 50px;
+        color:white;
+        border:1px solid white;
+    }
+
+    .media-playstore {
+        background-color: red;
+        margin: 0px 25px 0 100px;    
+    } 
+
+     
+} 

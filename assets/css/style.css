@@ -39,7 +39,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
- 
+
 /*landing-style*/
 
 /*nav-header*/
@@ -253,12 +253,12 @@ a {
     padding:15px 70px;
 }
 
-.bottom-items {
+.footer-items {
     display: flex;
-    padding: 3% 15%;
+    padding: 3% 10%;
     color:black;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .footer-items-logo {
@@ -269,12 +269,9 @@ a {
 
 .footer-items-logo > li {
     padding-left:25px;
-    
+    justify-content: baseline;
 }
 
-.margin-p-down {
-    margin:0;
-} 
-
+ 
  
   
