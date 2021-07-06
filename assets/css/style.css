@@ -155,10 +155,7 @@ body {
    
 }
  
-.line {
-    max-width: 884px;
-    border:3px solid #E4E4E4;
-}
+ 
 
 /*main-section*/
 
@@ -184,6 +181,17 @@ body {
 a {
     text-decoration: none;
     color:#FA4A0C;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.line {
+    max-width: 884px;
+    border:3px solid #E4E4E4;
 }
 
 .main-contents {

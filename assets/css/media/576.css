@@ -153,6 +153,9 @@
         margin:0;
     }
 
-    
-     
+    .hr-media {
+        width: 414px;
+        margin-top:15%;
+    }
+  
 } 
