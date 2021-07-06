@@ -48,11 +48,15 @@
     }
 
     .photo {
+        background-image: url(/assets/img/mainphonemedia.png);
+    }
+
+    .photo {
          margin:-17% 0% 0% -20%;
     }
 
     .line {
-        display: none;
+        order: n
  
     }
 
@@ -92,18 +96,26 @@
         background-color: #252B42;
     }
 
-    .download-buttons {
-        padding: 4% 20% 0 0;
+    .media-display-b {
+        display: block;
     }
- 
+     
+    .media-display-n {
+        display: none;
+    }
+
     .download-buttons {
-        margin: 4% 0% 0 0;
+        justify-content: center;
+        margin: 4% 10% 0% 0%;
+        align-items: center;
     }
      
 
     .button-download-style {
         font-size: 16px;
-        padding:10px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 
     .media-app {
@@ -113,7 +125,9 @@
     }
 
     .media-playstore {
-        margin: 0px 20px 0 100px;    
+        margin: 0px 20px 0 100px;
+        padding:15px 25px;  
+       
     } 
 
     .padding-logo-down {
@@ -125,7 +139,20 @@
     }
 
     .footer-items-logo {
-        padding-left:20%;
+        padding-right:20%;
+
+         
     }
+
+    .footer-items {
+        flex-direction: column;
+        
+    }
+
+    .display-p {
+        margin:0;
+    }
+
+    
      
 } 

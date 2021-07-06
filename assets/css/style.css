@@ -235,6 +235,14 @@ a {
     
 }
 
+.margin-p-down {
+    margin:0;
+}
+
+ .display-n {
+     display: none;
+ }
+
 .download-buttons {
     padding: 4% 5% 0 0;
 }
