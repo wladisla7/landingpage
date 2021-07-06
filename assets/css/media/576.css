@@ -19,6 +19,10 @@
         text-align: center;
     }
 
+    .main-h2 {
+        font-size: 24px;
+    }
+
     .h3-header {
         padding-left: 25px;
     }
@@ -55,10 +59,7 @@
          margin:-17% 0% 0% -20%;
     }
 
-    .line {
-        order: n
- 
-    }
+   
 
     .wrapper-info {
         display: flex;

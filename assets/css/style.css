@@ -128,7 +128,6 @@ body {
 
 }
 
- 
 .header-buttons {
     padding:7% 0 0 19%;
 }
@@ -145,6 +144,8 @@ body {
 }
 
 .playstore {
+    display: flex;
+    align-items: center;
     background-color: red;
     margin: 0px 35px 0 100px;    
 }
@@ -152,7 +153,6 @@ body {
 .photo {
     text-align: center;
     margin:-15% 4% 0 0%;
-   
 }
  
  
@@ -268,6 +268,8 @@ a {
 .appstore {
     padding:15px 70px;
 }
+
+/*footer-section*/
 
 .footer-items {
     display: flex;
