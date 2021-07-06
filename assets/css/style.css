@@ -255,21 +255,20 @@ a {
 
 .footer-items {
     display: flex;
-    padding: 3% 10%;
+    padding: 3% 15%;
     color:black;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 .footer-items-logo {
     list-style: none;
     display: flex;
-    justify-content: baseline;
+     
 }
 
 .footer-items-logo > li {
     padding-left:25px;
-    justify-content: baseline;
 }
 
  
