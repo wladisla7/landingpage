@@ -1,8 +1,13 @@
 /*custom*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     color:#ffff;
     margin:0;
+    font-family: 'Montserrat', sans-serif;
 } 
 
 .d-flex {
@@ -95,8 +100,7 @@ body {
     background-image: url(../img/Rectangle\ 48.png);
     height: 800px;
     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;    
+    background-size: cover;  
 }
 
 
@@ -117,7 +121,6 @@ body {
     font-weight: 700;
     line-height: 80px;
     letter-spacing: 0.2px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .h4-for-image {
@@ -137,7 +140,6 @@ body {
     font-size: 24px;
     border-radius: 30px;
     border:1px solid white;
-    font-family: 'Montserrat', sans-serif;
     line-height: 36px;
     justify-content: center;
     
@@ -152,9 +154,13 @@ body {
 
 .photo {
     text-align: center;
-    margin:-15% 4% 0 0%;
+    margin:-15% 0% 0 0%;
 }
- 
+
+.photo-style {
+    max-width: 548px;
+    height: 800px;
+}
  
 
 /*main-section*/
@@ -166,7 +172,6 @@ body {
     color:black;
     text-align: center;
     margin:5% 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .wrapper-info {
@@ -198,9 +203,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content:center;
-    max-width: 540px;
-    font-family: 'Montserrat', sans-serif;
-    
+    max-width: 540px;    
 }
 
 .h3-main-style {
@@ -247,7 +250,7 @@ a {
     margin:0;
 }
 
- .display-n {
+.display-n {
      display: none;
  }
 
