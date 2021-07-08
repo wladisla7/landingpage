@@ -39,6 +39,12 @@
          align-items: center;
     }
 
+    .a-media {
+        text-decoration: none;
+        color:red;
+        cursor: pointer;
+    }
+
 
     .button-style {
         padding:10px 45px;

@@ -194,6 +194,11 @@ a {
     color:#FA4A0C;
 }
 
+.a-w {
+    text-decoration: none;
+    color:white;
+}
+
 .main-section {
     display: flex;
     flex-direction: column;
@@ -259,9 +264,9 @@ a {
      display: none;
  }
 
- 
 
 .download-buttons {
+    margin-top:4%;
     justify-content: center;
     align-items: center;
 }
