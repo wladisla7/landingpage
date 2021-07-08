@@ -110,6 +110,7 @@ body {
 .contantimg {
      max-width: 900px;      
      padding-bottom: 5%;
+      
 }
 
 .h3-header {
@@ -135,7 +136,8 @@ body {
 }
 
 .header-buttons {
-    padding:7% 0 0 19%;
+    justify-content: center;
+    margin-top:8%;
 }
  
 .button-style {
@@ -145,19 +147,20 @@ body {
     border:1px solid white;
     line-height: 36px;
     justify-content: center;
-    
+    margin-left:15px;
+
 }
 
 .playstore {
     display: flex;
     align-items: center;
     background-color: red;
-    margin: 0px 35px 0 100px;    
+    justify-content: center;
 }
 
 .photo {
     text-align: center;
-    margin:-15% 0% 0 0%;
+    margin:-16% 0% 0 -3%;
 }
 
 .photo-style {
@@ -256,18 +259,22 @@ a {
      display: none;
  }
 
+ 
+
 .download-buttons {
-    padding: 4% 5% 0 0;
+    justify-content: center;
+    align-items: center;
 }
  
 .button-download-style {
-    padding:15px 50px;
+    padding:20px 50px;
     font-size: 24px;
     border-radius: 10px;
     border:1px solid white;
     font-family: 'Montserrat', sans-serif;
     line-height: 36px;
     justify-content: center;   
+    margin:0 10px;
 }
 
 .appstore {

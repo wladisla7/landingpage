@@ -4,8 +4,14 @@
         flex-direction: column;
          
     }
+
+    .nav-header {
+        display: flex;
+        justify-content: space-between;
+    }
     .logo {
-        padding-left: 25px;
+        max-width: 120px;
+        margin:25px 0 0 50px;
     }
 
     .menu-btn {
@@ -28,7 +34,7 @@
     }
 
     .header-buttons {
-        font-display:flex;
+        display::flex;
         flex-direction: column;
          align-items: center;
     }
@@ -36,19 +42,22 @@
 
     .button-style {
         padding:10px 45px;
-        margin:0 100px 0 0;
+        margin:0px;
+        
     }
 
     .playstore {
          color:white;
          margin-bottom: 15px;
          font-weight: 700;
+         margin:0;
     }
     
     .appstore {
         border:1px solid red;
         color:red;
         font-weight: 700;
+        margin-top:15px;
     }
 
     .photo {
@@ -78,9 +87,12 @@
         flex-direction: column;
     }
 
+    
+
     .download-img {
         background-image: none;
         background-color: #252B42;
+        width: 100%;
     }
 
     .media-display-b {
@@ -93,7 +105,6 @@
 
     .download-buttons {
         justify-content: center;
-        margin: 4% 10% 0% 0%;
         align-items: center;
     }
      
@@ -109,10 +120,11 @@
         padding:10px 50px;
         color:white;
         border:1px solid white;
+        margin:0;
     }
 
     .media-playstore {
-        margin: 0px 20px 0 100px;
+        margin: 0px 20px 0 25px;
         padding:15px 25px;  
        
     } 
