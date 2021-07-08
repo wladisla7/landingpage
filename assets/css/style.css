@@ -160,12 +160,12 @@ body {
 
 .photo {
     text-align: center;
-    margin:-16% 0% 0 -3%;
+    margin:-10% 0% 0 -3%;
 }
 
 .photo-style {
     max-width: 548px;
-    height: 800px;
+   
 }
  
 
@@ -306,6 +306,16 @@ a {
     padding-left:25px;
 }
 
+ .button-download-style:hover {
+    background-color:yellow;
+    color:blue;
+}
+
+.button-style:hover {
+    background-color: orange;
+    color:blue;
+
+}
  
  
   
