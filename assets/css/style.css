@@ -52,19 +52,21 @@ body {
 /*nav-header*/
 
 .nav-header  {
-    margin: 25px auto;
-    max-width: 1440px; 
+   display: flex;
+   justify-content: space-between;
+   padding:1% 5%;
 }
 
 #menu-toggle {
     opacity: 0;
 }
 
+ 
 .menu-btn {
     display: flex;  
     align-items: center;   
     position: absolute;
-    top: 75px;
+    top: 50px;
     right: 100px;
     width: 26px;
     height: 26px;
