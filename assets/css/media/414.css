@@ -73,7 +73,7 @@
     }
 
     .photo {
-         margin:1% 0% 0% -15%;
+         margin:1% 0% 0% -18%;
     }
 
     .wrapper-info {
@@ -155,7 +155,6 @@
 
     .footer-items {
         flex-direction: column;
-        
     }
 
     .display-p {
